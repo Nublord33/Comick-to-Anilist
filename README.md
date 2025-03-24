@@ -11,6 +11,10 @@ pip install pandas
 
 # steps
 
+step 0.1:
+
+download this repo or use a codespace(who would do that???)
+
 step 1:
 
 first go to comick click on "My list" and click on "Export" after that click on "Request to export your list." 

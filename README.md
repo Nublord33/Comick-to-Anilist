@@ -1,3 +1,6 @@
+###this probably does some weird shit to anilst that I don't know about run with caution
+
+
 ## How to setup
 
 # needed thing
@@ -5,7 +8,7 @@
 pyton(go to the website and download it)
 pandas
 
-```whatever shell u suing
+```whatever shell u using
 pip install pandas
 ```
 
@@ -48,3 +51,4 @@ past what you copied into acess_code field in anilist.oy
 step 6:
 
 run anilist.py
+

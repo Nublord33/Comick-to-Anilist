@@ -1,4 +1,4 @@
-###this probably does some weird shit to anilst that I don't know about run with caution
+### this probably does some weird shit to anilst that I don't know about run with caution
 
 
 ## How to setup

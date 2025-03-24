@@ -1,5 +1,14 @@
 ## How to setup
 
+# needed thing
+
+pyton(go to the website and download it)
+pandas
+
+```whatever shell u suing
+pip install pandas
+```
+
 # steps
 
 step 1:

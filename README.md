@@ -1,54 +1,43 @@
-### this probably does some weird shit to anilst that I don't know about run with caution
+
+# install python and deps
 
 
-## How to setup
+windows) https://www.youtube.com/watch?v=-kqfNvedYp0
+mac OS) https://www.youtube.com/watch?v=nhv82tvFfkM
 
-# needed thing
-
-pyton(go to the website and download it)
-pandas
+0.5) after you installed python run this command in yout shell/command prompt
 
 ```whatever shell u using
 pip install pandas
 ```
+then run
+```whatever shell u using
+pip install requests
+```
 
-# steps
+# step 0.75
 
-step 0.1:
+download anilist.py
 
-download this repo or use a codespace(who would do that???)
+# step 1
 
-step 1:
+export your list to csv by going to comick.io click on "My List" click export click on Request to export your list and rename the file "out.csv"
 
-first go to comick click on "My list" and click on "Export" after that click on "Request to export your list." 
+# step 2
 
-step 2: 
+go to https://anilist.co/api/v2/oauth/authorize?client_id=25365&response_type=token wait a bit and go to the search bar and copy the text starting from access_token='
 
-and rename it to data.csv
+# setp 3
 
-step 3:
+go into anilist.py look for the line of code access_token = 'your-access-token-here' and past your acess token that you copied into the qoutes
 
-run list.py and choose 1(other stuff is optional)
+# step 4
 
-Step 4:
+run the anilist.py file
 
-go to this url:
 
-https://anilist.co/api/v2/oauth/authorize?client_id=25365&redirect_uri=anilist.co&response_type=code
 
-Step 5 :
 
-say yes and whatever
 
-step 6:
 
-go to your current url and copy and past starting from "code="
-
-step 5: 
-
-past what you copied into acess_code field in anilist.oy
-
-step 6:
-
-run anilist.py
 

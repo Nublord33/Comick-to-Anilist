@@ -7,11 +7,11 @@ mac OS) https://www.youtube.com/watch?v=nhv82tvFfkM
 
 0.5) after you installed python run this command in yout shell/command prompt
 
-```whatever shell u using
+```shell
 pip install pandas
 ```
 then run
-```whatever shell u using
+```shell
 pip install requests
 ```
 
@@ -33,7 +33,11 @@ go into anilist.py look for the line of code access_token = 'your-access-token-h
 
 # step 4
 
-run the anilist.py file
+run the anilist.py file by doing
+
+```python
+python anilist.py
+```
 
 
 
